@@ -3,6 +3,7 @@ This snippet of code lets NodeMCU V3 be able to satisfy the needs of a Plant to 
 
 ## Remote Control Application
 The NodeMCU can be controlled through the internet using the Application `MQTT Dash`. In this code, mqtt protocol is employed so that the user and the device can establish a stable connection even through a limited bandwidth.  
+  
 Screenshot  
 ![MQTT-Dash-Screenshot.jpg](assets/MQTT-Dash-Screenshot.jpg)  
 
