@@ -98,7 +98,7 @@ void callback(char *topic, byte *payload, unsigned int length) {
  }
  Serial.println();
  Serial.println("-----------------------");
-     // Control State
+  // Control State
   if ((char)payload[0] == '0') 
   {
     control_state = 0;
@@ -154,7 +154,6 @@ unsigned long time_now = 0;
 
 void loop() {
  client.loop();
-   /* DEMO - 1, every temperature or humidity call will read 6 bytes over I2C, total 12 bytes */
   
   if (millis() >= time_now + AHT15_read_period){
     
